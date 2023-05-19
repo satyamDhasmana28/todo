@@ -1,0 +1,81 @@
+.root-container{
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-container{
+    height: 550px;
+    width: 450px;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 5px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-part{
+    height: 70px;
+    background-color: gray;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+ .upper-part input[type=text]{
+    border: none;
+    height: 30px;
+    border-radius: 8px;
+    /* font-weight: 700; */
+ }
+
+ .upper-part input[type=button]{
+    border-radius: 7px;
+    border: 1px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: aqua;
+ }
+
+ .upper-part input[type=button]:hover{
+   background-color: blue;
+ }
+
+ .lower-container{
+    border: 1px solid;
+    height: 300px;
+
+ }
+
+ .todo-item{
+    border: 1px solid green;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 60px;
+ }
+
+ .todo-item p{
+   font-size: 24px;
+   font-weight: 560;
+   font-family:'Georgia';
+ }
+
+ .deletbtn{
+     background-color: whitesmoke;
+     color: black;
+     border-radius: 4px;
+     height: 30px;
+     width: 70px;
+     font-size: 19px;
+     padding: 2px;
+    }
+    
+    .deletbtn:hover{
+     background-color: rgb(26, 2, 2);
+     color: whitesmoke;
+ }
